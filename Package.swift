@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "DunneAudioKit",
-    platforms: [.macOS(.v10_13), .iOS(.v11), .tvOS(.v11)],
+    platforms: [.macOS(.v10_13), .iOS(.v12), .tvOS(.v11)],
     products: [.library(name: "DunneAudioKit", targets: ["DunneAudioKit"])],
     dependencies: [
         .package(url: "https://hub.fastgit.org/AudioKit/KissFFT", from: "1.0.0"),

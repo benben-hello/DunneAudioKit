@@ -3,16 +3,16 @@
     "pins": [
       {
         "package": "AudioKit",
-        "repositoryURL": "https://github.com/AudioKit/AudioKit",
+        "repositoryURL": "https://hub.fastgit.org/benben-hello/AudioKit",
         "state": {
-          "branch": "develop",
-          "revision": "21ecc7b37e826bd3e2277015fe077c4c1ace8458",
+          "branch": "main",
+          "revision": "7127fa45252544a24a38b7d2da575af11744ffc2",
           "version": null
         }
       },
       {
         "package": "KissFFT",
-        "repositoryURL": "https://github.com/AudioKit/KissFFT",
+        "repositoryURL": "https://hub.fastgit.org/AudioKit/KissFFT",
         "state": {
           "branch": null,
           "revision": "dd0636e151724b8ba2e0908eba4d99a6ff24d00c",
