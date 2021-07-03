@@ -9,7 +9,7 @@ let package = Package(
     products: [.library(name: "DunneAudioKit", targets: ["DunneAudioKit"])],
     dependencies: [
         .package(url: "https://hub.gastgit.org/AudioKit/KissFFT", from: "1.0.0"),
-        .package(url: "https://github.com/AudioKit/AudioKit", from: "5.2.0"),
+        .package(url: "https://hub.gastgit.org/benben-hello/AudioKit", from: "main"),
     ],
     targets: [
         .target(name: "DunneAudioKit", dependencies: ["AudioKit", "CDunneAudioKit"]),
