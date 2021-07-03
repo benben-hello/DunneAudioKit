@@ -8,8 +8,8 @@ let package = Package(
     platforms: [.macOS(.v10_13), .iOS(.v11), .tvOS(.v11)],
     products: [.library(name: "DunneAudioKit", targets: ["DunneAudioKit"])],
     dependencies: [
-        .package(url: "https://hub.gastgit.org/AudioKit/KissFFT", from: "1.0.0"),
-        .package(url: "https://hub.gastgit.org/benben-hello/AudioKit", from: "main"),
+        .package(url: "https://hub.fastgit.org/AudioKit/KissFFT", from: "1.0.0"),
+        .package(url: "https://hub.fastgit.org/benben-hello/AudioKit", from: "main"),
     ],
     targets: [
         .target(name: "DunneAudioKit", dependencies: ["AudioKit", "CDunneAudioKit"]),
